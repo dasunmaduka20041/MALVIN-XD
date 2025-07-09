@@ -30,7 +30,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆*",
+        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "* 😆🥲*",
 // set the auto reply massage on status reply  
 
 
@@ -59,7 +59,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -94,7 +94,7 @@ OWNER_NAME: process.env.OWNER_NAME || "DASUN😊❤️‍🩹",
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
-        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
@@ -106,7 +106,7 @@ OWNER_NAME: process.env.OWNER_NAME || "DASUN😊❤️‍🩹",
    READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-     DEV: process.env.DEV || "263776388689",
+     DEV: process.env.DEV || "+94 781586406",
 //replace with your whatsapp number    
     
     ANTI_VV: process.env.ANTI_VV || "true",
@@ -115,7 +115,7 @@ OWNER_NAME: process.env.OWNER_NAME || "DASUN😊❤️‍🩹",
       ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'inbox/ same if you want to resend deleted message in same chat 
 
-      AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+      AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 
 version: process.env.version || "0.0.7",
